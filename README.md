@@ -23,8 +23,12 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** (https://github.com/syabilirfan/OSProject-Duo)
-2. How many files and folders are in this repository. ***(1 mark)*** 1 FOLDER AND 1 README FILE
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** 
+```
+(https://github.com/syabilirfan/OSProject-Duo)
+```
+2. How many files and folders are in this repository. ***(1 mark)*** 
+```1 FOLDER AND 1 README FILE```
 
 
 ## Exploring github codespaces
@@ -56,9 +60,18 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** Ubuntu.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 2 cores, 4 GB RAM, 32 GB SSD or 4 cores, 8 GB RAM, 64 GB SSD
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** because it helps you to save your progress, collaborate with others, and avoid losing your work in case of any issues with the codespace³
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** 
+```
+Ubuntu
+```
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
+```
+2 cores, 4 GB RAM, 32 GB SSD or 4 cores, 8 GB RAM, 64 GB SSD
+```
+3. Why must we commit and sync our current work on source control? ***(1 mark)***
+``` 
+because it helps you to save your progress, collaborate with others, and avoid losing your work in case of any issues with the codespace
+```
 
 ## Exploring the Terminal
 
@@ -206,7 +219,7 @@ shm                65536        8     65528   1% /dev/shm
 ```
 5. Run the command **ls** . ***(1 mark)*** 
 ```
-``README.md  images``
+README.md  images
 ```
 6. Run the command **ls -asl** . ***(1 mark)*** 
 ```
@@ -317,16 +330,35 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6032.9 avail Mem
 ```
 10. Run the command **uname -a**. ***(1 mark)*** 
 ```
-``Linux codespaces-00e4ca 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux``
-11. What is the available free memory in the system. ***(1 mark)*** ``141Mi``
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** ``17G``
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** ```6.2.0-1018-azure x86_64```
+Linux codespaces-00e4ca 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+```
+11. What is the available free memory in the system. ***(1 mark)*** 
+```
+141Mi
+```
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** 
+```
+17G
+```
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** 
+```
+6.2.0-1018-azure x86_64
+```
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** 
-```The ls command lists the files and directories in the current working directory. The -a option shows all the files and directories, including the hidden ones that start with a dot. The -s option shows the size of each file or directory in blocks. The -l option shows the output in a long format, with more details such as permissions, owner, group, date, and time```
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** ``4 MB``
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** ``2763.002 MHz``
+```
+The ls command lists the files and directories in the current working directory. The -a option shows all the files and directories, including the hidden ones that start with a dot. The -s option shows the size of each file or directory in blocks. The -l option shows the output in a long format, with more details such as permissions, owner, group, date, and time
+```
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 
+```
+4 MB
+```
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)***
+``` 
+2763.002 MHz
+```
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 
-``482 codespa+  20   0   21.1g 337652  46464 S   1.3   4.2   0:24.05 node``
+```
+482 codespa+  20   0   21.1g 337652  46464 S   1.3   4.2   0:24.05 node
 ```
 
 ## Running your own container instance.
@@ -387,8 +419,14 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** 
+``` 
+Not persistent because their are following their container 
+```
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** 
+```
+yes
+```
 
 ## Running your own container with persistent storage
 
@@ -407,14 +445,20 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)***
+```
+/workspaces/OSProject-Duo/myroot
+```
+
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+```
+chown: cannot access 'myroot': No such file or directory
+```
 
 ## You are on your own, create your own static webpage
 
@@ -440,9 +484,18 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
+```
+fill
+```
 2. What port is the apache web server running. ***(1 mark)***
+```
+fill
+```
 3. What port is open for http protocol on the host machine? ***(1 mark)***
+```
+fill
+```
 
 ## What to submit
 
