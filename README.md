@@ -62,7 +62,7 @@ Team Mates:
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** 
 ```
-Ubuntu
+Linux
 ```
 2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
 ```
