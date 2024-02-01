@@ -486,15 +486,17 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
 ```
-fill
+Permissions of the folder /usr/local/apache2/htdocs: drwxr-xr-x
+User that owns the folder: root
+Group that owns the folder: root
 ```
 2. What port is the apache web server running. ***(1 mark)***
 ```
-fill
+80
 ```
 3. What port is open for http protocol on the host machine? ***(1 mark)***
 ```
-fill
+8080
 ```
 
 ## What to submit
