@@ -28,7 +28,9 @@ Team Mates:
 https://github.com/syabilirfan/OSProject-Duo
 ```
 2. How many files and folders are in this repository. ***(1 mark)*** 
-```1 FOLDER AND 1 README FILE```
+```
+1 FOLDER AND 1 README FILE
+```
 
 
 ## Exploring github codespaces
