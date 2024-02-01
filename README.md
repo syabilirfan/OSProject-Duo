@@ -25,7 +25,7 @@ Team Mates:
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** 
 ```
-(https://github.com/syabilirfan/OSProject-Duo)
+https://github.com/syabilirfan/OSProject-Duo
 ```
 2. How many files and folders are in this repository. ***(1 mark)*** 
 ```1 FOLDER AND 1 README FILE```
